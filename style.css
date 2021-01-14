@@ -1,0 +1,143 @@
+body{
+    padding: 5%;
+    margin: 5%;
+}
+
+.subject{
+    font-family: Copperplate, Papyrus, fantasy;
+    font-size: 400%;
+}
+
+.posted-date{
+    padding : 0px;
+    margin : 10px;
+    margin-top: -3%;
+    line-height : 20px;
+}
+
+.print-icon{
+    position: absolute;
+    right: 10%;  
+    top: 40%;
+}
+.choco-pizza-img{
+    width: 100%;
+    height: 100%;
+    margin-top: 3%;
+}
+
+.list-div{
+    background-image: url("img/list-bg.png");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 10px 8px 0px #888888;
+}
+.leftside-text{
+    text-align: left;
+    padding: 3%;
+    margin: 3%;
+}
+.rightside-text{
+    position: absolute;
+    left: 50%;  
+    top: 10%;
+}
+.cbx
+{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+}
+.cbx2
+{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+#van-pic-img{
+    padding: 100%;
+    margin-top: 100%;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  
+}
+.Vanessa-text{
+    padding: 3%;;
+    margin: 3%;
+    position: relative;  
+    top:5%;
+}
+.Vanessa-text h3{
+    position: relative;  
+    top:10%;
+    font-size: 30px;
+    
+}
+.Vanessa-text p{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+    top: 1%;
+    color: slategray;
+}
+
+.container button{
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 20px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 6px;
+    cursor: pointer;
+}
+hr{
+background: url('img/logo.png') no-repeat top center;
+background-size: contain;
+display: block;
+height: 18px;
+border: 0;
+position: relative;
+}
+hr:before,
+hr:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background:silver;
+    height: 2px;
+    top: 8px;
+}
+hr:before {
+    left: 0;
+    right: 50%;
+    margin-right: 10px;
+}
+hr:after {
+    right: 0;
+    left: 50%;
+    margin-left: 10px;
+}
+
+
+.footer-paragraph{
+    height: 10em;
+    position: relative
+}
+.footer-paragraph p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: slategray;
+    font-size: 25px;
+}
+
